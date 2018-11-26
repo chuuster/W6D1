@@ -67,4 +67,4 @@ Function.prototype.curry = function(numArgs) {
   return _innerCurry;
 };
 
-console.log(sum.curry(3)(1)(2)(3));
+console.log(sumArray.curry(3)(1)(2)(3));
