@@ -23,6 +23,7 @@ Ship.inherits(MovingObject);
 function Asteroid (name) {
   MovingObject.call(this, name);
 }
+
 Asteroid.inherits(MovingObject);
 
 let a = new Asteroid("rocky");
