@@ -1,4 +1,6 @@
+const Util = require('./util.js');
 const MovingObject = require('./moving_object.js')['MovingObject'];
+const Asteroid = require('./asteroid.js');
 // const MovingObject = require('./moving_object.js');
 
 
@@ -11,3 +13,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 console.log("webpack is working");
 
 window.MovingObject = MovingObject;
+window.Util = Util;
+window.Asteroid = Asteroid;
